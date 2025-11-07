@@ -86,6 +86,50 @@ font-weight: 500;
 font-size: 1.1rem;
 }
 
+#bar{
+    color: #fff;
+    display: none;
+}
+
+
+/* 
+* MAKE NAVBAR RESPONSIVE
+*/
+@media (max-width: 699px){
+    #menu{
+        background-color: aqua;
+        display: block;
+        width: 280px;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        /* right: 0; */
+        right: -100%;
+        padding: 30px 0;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    /* Toggles the menu hamburger icon to display the navbar on small screens */
+    #menu.active{
+        right: 10px;
+        transition: all .3s ease;
+    }
+
+    #menu li{
+        padding: 1rem;
+    }
+
+    #menu li a {
+        color: #1f4a40;
+
+    }
+
+    #bar{
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+}
 
 
 
