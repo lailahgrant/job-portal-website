@@ -30,6 +30,17 @@ h3 {
     font-weight: 500;
 }
 
+#w-btn{
+margin-left: 40px;
+background-color: #fff;
+color: #1f4a40;
+padding: 9px 30px;
+border-radius: 1.2rem;
+font-weight: 500;
+border: none;
+cursor: pointer;
+}
+
 .sec-space {
     padding: 4rem 0;
 }
@@ -42,3 +53,43 @@ h3 {
     max-width: 1200px;
     margin: auto;
 }
+
+
+/* Navbar */
+header{
+    background-color: #1f4a40;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+#navbar .logo{
+    width: 120px;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+#menu li a{
+color: #fff;
+text-decoration: none;
+margin-left: 40px;
+font-weight: 500;
+font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
