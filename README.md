@@ -26,7 +26,7 @@ JobSTACK is a web-based platform designed to streamline the job search process. 
 ## Tech Stack
 
 - [x] HTML5
-  - [ ] 
+  - [ ] Forms
 
 - [x] CSS3
   - [ ] Media queries
@@ -35,7 +35,7 @@ JobSTACK is a web-based platform designed to streamline the job search process. 
 
 - [x] JavaScript
   - [x] Loops for `dynamic content generation`
-  - [x] DOM 
+  - [x] DOM
   - [x] 
 
 ## Features
@@ -54,7 +54,7 @@ JobSTACK is a web-based platform designed to streamline the job search process. 
 - [x] Professional responsive designs using media queries
 - [x] Use of common components and layout patterns
 - [x] Optimize website performance for faster load times
-- [x] 
+- [x] Domain name and hosting
 
 ## License
 
